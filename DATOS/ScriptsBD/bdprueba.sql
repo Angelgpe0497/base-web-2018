@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `prueba` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `prueba`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: prueba
@@ -28,7 +30,7 @@ CREATE TABLE `persona` (
   `fecha` datetime DEFAULT NULL,
   `fecha2` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +39,7 @@ CREATE TABLE `persona` (
 
 LOCK TABLES `persona` WRITE;
 /*!40000 ALTER TABLE `persona` DISABLE KEYS */;
-INSERT INTO `persona` VALUES (4,'fadsf',NULL,NULL),(5,'dafdsdsaf','2018-01-31 00:00:00',NULL),(6,'asfads','2018-02-06 00:00:00',NULL);
+INSERT INTO `persona` VALUES (4,'fadsf',NULL,NULL),(5,'dafdsdsaf','2018-01-31 00:00:00',NULL),(6,'asfads','2018-02-06 00:00:00',NULL),(7,'','2018-09-19 00:00:00',NULL);
 /*!40000 ALTER TABLE `persona` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-25 12:45:06
+-- Dump completed on 2018-09-19 10:43:27
