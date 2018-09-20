@@ -14,7 +14,9 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="header" runat="server">
-</asp:Content>
+    <input id="Button" type="button" value="button"  onclick="return enviarDatos()"/>
+    
+ </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="principal" runat="server">
     <form runat="server"> 
         <input id="numPregunta" type="hidden" value="0" />
